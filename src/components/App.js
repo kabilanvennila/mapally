@@ -8,7 +8,7 @@ mapboxgl.accessToken = "pk.eyJ1Ijoia2FiaWxhbjAwNSIsImEiOiJja3R4dW1qNzMya3gyMm9uc
 
 // Add the geocoder to the map
 
-const Mapp = () => {
+const App = () => {
   const mapContainerRef = useRef(null);
 
 
@@ -50,4 +50,4 @@ const Mapp = () => {
   return <div className="map-container" ref={mapContainerRef} />;
 };
 
-export default Mapp;
+export default App;
